@@ -1,0 +1,1 @@
+%Election{} |> Election.view_header() |> IO.write()
