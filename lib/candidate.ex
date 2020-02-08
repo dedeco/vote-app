@@ -5,7 +5,4 @@ defmodule Candidate do
     %Candidate{id: id, name: name}
   end
 
-  def vote(candidate) do
-    candidate.votes + 1
-  end
 end
